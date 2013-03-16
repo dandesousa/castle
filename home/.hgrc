@@ -1,0 +1,4 @@
+[ui]
+; this is a comment
+editor = vim
+username = hg@dandesousa.com
