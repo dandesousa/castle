@@ -4,7 +4,7 @@ This is my homesick compatible repository, storage space for all my associated d
 
 ## Installation 
 
-You can following the instructions for [technicalpickles/homesick][https://github.com/technicalpickles/homesick]:
+You can following the instructions for [technicalpickles/homesick](https://github.com/technicalpickles/homesick):
 
 ```
 # clones this repo
@@ -22,4 +22,4 @@ If you are setting this up, I recommend using the above gitignore, cloning vundl
 
 ## Credits
 
-Special thanks goes to [fsproru / vimfiles][https://github/fsproru/vimfiles] who provided examples for solving my vim / vundle problem.
+Special thanks goes to [fsproru / vimfiles](https://github.com/fsproru/vimfiles) who provided examples for solving my vim / vundle problem.
