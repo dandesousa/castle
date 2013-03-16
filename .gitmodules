@@ -1,0 +1,3 @@
+[submodule "home/.vim/bundle/AutoComplPop"]
+	path = home/.vim/bundle/AutoComplPop
+	url = ssh://git@github.com/vim-scripts/AutoComplPop.git
