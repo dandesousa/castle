@@ -129,3 +129,5 @@ Jobs="\j"
 # I tweaked it to work on UBUNTU 11.04 & 11.10 plus made it mo' better
 
 export PS1="$IBlack$Time12h$Color_Off$Green$Hostname:$PathFull$Color_Off $ "
+
+source .bashrc.path

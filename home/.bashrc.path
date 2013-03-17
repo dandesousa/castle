@@ -1,0 +1,4 @@
+
+# npm node.js packages
+export PATH=${PATH}:/usr/local/share/npm/bin
+
