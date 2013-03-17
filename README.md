@@ -12,6 +12,9 @@ homesick clone dandesousa/castle
 
 # pulls down vundle
 homesick pull dandesousa/castle
+
+# load vim plugins
+vim +BundleInstall +qall
 ```
 
 ## Caveats
