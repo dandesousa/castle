@@ -1,3 +1,11 @@
 [user]
 	email = github@dandesousa.com
 	name = Dan De Sousa
+[core]
+	editor = vim
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool

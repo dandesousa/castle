@@ -23,7 +23,6 @@ Bundle 'AutoComplPop'
 Bundle 'Markdown-syntax'
 Bundle 'minibufexpl.vim'
 Bundle 'TaskList.vim'
-"Bundle 'greyblake/vim-preview'
 Bundle 'instant-markdown.vim'
 
 " colors
