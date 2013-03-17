@@ -23,6 +23,8 @@ Because homesick is storing all your vimfiles in git, you want to avoid putting 
 
 If you are setting this up, I recommend using the above gitignore, cloning vundle and adding that as a submodule with -f.
 
+Some of the plugins may require extra configuration or package dependencies not handled by vundle. For non-working features, please see the appropriate github repo. In the future I will attempt to use a configuration tool to make sure these all get installed. 
+
 ## Credits
 
 Special thanks goes to [fsproru / vimfiles](https://github.com/fsproru/vimfiles) who provided examples for solving my vim / vundle problem.
