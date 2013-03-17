@@ -14,7 +14,7 @@ homesick clone dandesousa/castle
 homesick pull dandesousa/castle
 
 # load vim plugins
-vim +BundleInstall +qall
+vim -u .vim/bundles.vim +BundleInstall +qall
 ```
 
 ## Caveats
@@ -28,3 +28,5 @@ Some of the plugins may require extra configuration or package dependencies not 
 ## Credits
 
 Special thanks goes to [fsproru / vimfiles](https://github.com/fsproru/vimfiles) who provided examples for solving my vim / vundle problem.
+
+Also to [gmarik / vundle](https://github.com/gmarik/vundle) for an amazing tool.
