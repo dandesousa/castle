@@ -10,11 +10,13 @@ Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/powerline'
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
+Bundle 'a.vim'
 Bundle 'AutoComplPop'
+Bundle 'DoxygenToolkit.vim'
+Bundle 'instant-markdown.vim'
 Bundle 'Markdown-syntax'
 Bundle 'minibufexpl.vim'
 Bundle 'TaskList.vim'
-Bundle 'instant-markdown.vim'
 
 " colors
 Bundle 'desert-warm-256'
