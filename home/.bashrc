@@ -130,4 +130,4 @@ Jobs="\j"
 
 export PS1="$IBlack$Time12h$Color_Off$Green$Hostname:$PathFull$Color_Off $ "
 
-source .bashrc.path
+source ~/.bashrc.path
