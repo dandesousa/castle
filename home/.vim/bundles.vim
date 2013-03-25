@@ -17,6 +17,8 @@ Bundle 'instant-markdown.vim'
 Bundle 'Markdown-syntax'
 Bundle 'minibufexpl.vim'
 Bundle 'TaskList.vim'
+Bundle 'Jinja'
+"Bundle 'UltiSnips'
 
 " colors
 Bundle 'desert-warm-256'

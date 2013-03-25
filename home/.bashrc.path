@@ -1,4 +1,5 @@
 
 # npm node.js packages
+export PATH=/usr/local/bin:${PATH}
 export PATH=${PATH}:/usr/local/share/npm/bin
-
+export PATH=~/.rbenv/shims:${PATH}
