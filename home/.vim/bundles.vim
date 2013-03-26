@@ -14,9 +14,13 @@ Bundle 'a.vim'
 Bundle 'AutoComplPop'
 Bundle 'DoxygenToolkit.vim'
 Bundle 'Markdown-syntax'
+Bundle 'MatchTag'
 Bundle 'minibufexpl.vim'
+Bundle 'surround.vim'
 Bundle 'TaskList.vim'
 Bundle 'Jinja'
+Bundle 'L9'
+Bundle 'FuzzyFinder'
 
 " colors
 Bundle 'desert-warm-256'
