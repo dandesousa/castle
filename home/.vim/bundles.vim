@@ -21,6 +21,7 @@ Bundle 'TaskList.vim'
 Bundle 'Jinja'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+Bundle 'UltiSnips'
 
 " colors
 Bundle 'desert-warm-256'
