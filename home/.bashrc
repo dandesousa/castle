@@ -132,3 +132,4 @@ export PS1="$IBlack$Time12h$Color_Off$Green$Hostname:$PathFull$Color_Off $ "
 
 source ~/.bashrc.path
 source ~/.bashrc.darwin
+source ~/.bashrc.local 2> /dev/null
