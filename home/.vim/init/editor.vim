@@ -11,7 +11,7 @@
 " history for multiple files. Vim will complain if you try to quit without
 " saving, and swap files will keep you safe if your computer crashes.
 set hidden
-
+set nowrap
 
 " Use case insensitive search, except when using capital letters
 set ignorecase
