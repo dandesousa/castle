@@ -52,9 +52,7 @@ set ruler
 set laststatus=2
 
 " Backups
-set backup
-set writebackup
-set backdir=~/.vim/backup
+
 
 let preferred_dir = expand("~/.vim/backup")
    if !isdirectory(preferred_dir)
@@ -65,4 +63,9 @@ let preferred_dir = expand("~/.vim/backup")
          echo "Cannot create directory: " . preferred_dir . " because the mkdir function does not exist"
       endif
    endif
+
+
+set backup
+set writebackup
+set backupdir=~/.vim/backup
 
