@@ -51,4 +51,18 @@ set ruler
 " Always display the status line, even if only one window is displayed
 set laststatus=2
 
+" Backups
+set backup
+set writebackup
+set backdir=~/.vim/backup
+
+let preferred_dir = expand("~/.vim/backup")
+   if !isdirectory(preferred_dir)
+      if exists("*mkdir")
+         echo "Creating preferred backup file location: " . preferred_dir
+         call mkdir(preferred_dir,"p",0700)
+      else
+         echo "Cannot create directory: " . preferred_dir . " because the mkdir function does not exist"
+      endif
+   endif
 
