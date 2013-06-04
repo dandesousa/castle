@@ -24,6 +24,7 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'UltiSnips'
 Bundle 'vim-flake8'
+Bundle 'klen/python-mode'
 
 " colors
 Bundle 'desert-warm-256'
