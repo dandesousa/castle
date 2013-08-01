@@ -25,6 +25,7 @@ Bundle 'FuzzyFinder'
 Bundle 'UltiSnips'
 Bundle 'vim-flake8'
 Bundle 'klen/python-mode'
+Bundle 'Yggdroot/indentLine' 
 
 " colors
 Bundle 'desert-warm-256'
