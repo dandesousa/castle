@@ -43,6 +43,7 @@ set cmdheight=1
 
 " Display line numbers on the left
 set number
+set relativenumber " Displays cursor position from current
 
 " Display the cursor position on the last line of the screen or in the status
 " line of a window

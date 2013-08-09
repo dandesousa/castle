@@ -8,11 +8,9 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " ADD Bundles below
-Bundle 'Lokaltog/powerline'
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
-
+Bundle 'vim-neatstatus'
 Bundle 'a.vim'
-Bundle 'AutoComplPop'
+"Bundle 'AutoComplPop'
 Bundle 'DoxygenToolkit.vim'
 Bundle 'Markdown-syntax'
 Bundle 'MatchTag'
@@ -23,9 +21,9 @@ Bundle 'Jinja'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'UltiSnips'
-Bundle 'vim-flake8'
 Bundle 'klen/python-mode'
 Bundle 'Yggdroot/indentLine' 
+Bundle 'scrooloose/syntastic'
 
 " colors
 Bundle 'desert-warm-256'
