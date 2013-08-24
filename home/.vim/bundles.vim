@@ -23,7 +23,7 @@ Bundle 'FuzzyFinder'
 Bundle 'UltiSnips'
 Bundle 'klen/python-mode'
 Bundle 'Yggdroot/indentLine' 
-Bundle 'scrooloose/syntastic'
+Bundle 'davidhalter/jedi-vim'
 
 " colors
 Bundle 'desert-warm-256'
