@@ -10,9 +10,6 @@ You can following the instructions for [technicalpickles/homesick](https://githu
 # clones this repo
 homesick clone dandesousa/castle
 
-# pulls down vundle
-homesick pull dandesousa/castle
-
 # load vim plugins
 vim -u .vim/bundles.vim +BundleInstall +qall
 ```
