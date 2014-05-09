@@ -136,4 +136,6 @@ source ~/.bashrc.path
 source ~/.bashrc.darwin
 source ~/.bashrc.local 2> /dev/null
 
+if [ -e "$HOME/.homesick/repos/homeshick/homeshick.sh" ]; then
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+fi
