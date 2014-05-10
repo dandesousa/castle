@@ -1,31 +1,35 @@
 set nocompatible
 filetype off
-let g:vundle_default_git_proto = 'http'
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+
+"let g:vundle_default_git_proto = 'http'
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " manage vundle -- required
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
-" ADD Bundles below
-Bundle 'vim-neatstatus'
-Bundle 'a.vim'
-"Bundle 'AutoComplPop'
-Bundle 'DoxygenToolkit.vim'
-Bundle 'Markdown-syntax'
-Bundle 'MatchTag'
-Bundle 'minibufexpl.vim'
-Bundle 'surround.vim'
-Bundle 'TaskList.vim'
-Bundle 'Jinja'
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'UltiSnips'
-Bundle 'klen/python-mode'
-Bundle 'Yggdroot/indentLine' 
-Bundle 'davidhalter/jedi-vim'
+" ADD Plugins below
+Plugin 'vim-neatstatus'
+Plugin 'a.vim'
+"Plugin 'AutoComplPop'
+Plugin 'DoxygenToolkit.vim'
+Plugin 'Markdown-syntax'
+Plugin 'MatchTag'
+Plugin 'minibufexpl.vim'
+Plugin 'surround.vim'
+Plugin 'TaskList.vim'
+Plugin 'Jinja'
+Plugin 'L9'
+Plugin 'FuzzyFinder'
+Plugin 'UltiSnips'
+Plugin 'honza/vim-snippets'
+Plugin 'klen/python-mode'
+Plugin 'Yggdroot/indentLine' 
+Plugin 'davidhalter/jedi-vim'
+"Plugin 'Valloric/YouCompleteMe'
 
 " colors
-Bundle 'desert-warm-256'
+Plugin 'desert-warm-256'
 
+call vundle#end()
 filetype plugin indent on
