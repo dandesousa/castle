@@ -8,6 +8,8 @@
 [difftool]
 	prompt = false
 [alias]
-	d = difftool
+	dt = difftool
 [push]
 	default = matching
+[merge]
+	tool = vimdiff
