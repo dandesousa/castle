@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/daniel/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
