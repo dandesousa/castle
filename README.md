@@ -12,7 +12,7 @@ bash -c "$(curl -s https://raw.githubusercontent.com/dandesousa/castle/master/se
 
 ## Credits
 
-Inspired by and happily using oh-my-zsh.
+Inspired by and happily using [robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 
 Special thanks goes to [fsproru / vimfiles](https://github.com/fsproru/vimfiles) who provided examples for solving my vim / vundle problem.
 
