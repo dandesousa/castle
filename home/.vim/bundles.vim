@@ -11,7 +11,6 @@ Plugin 'gmarik/Vundle.vim'
 " ADD Plugins below
 Plugin 'vim-neatstatus'
 Plugin 'a.vim'
-"Plugin 'AutoComplPop'
 Plugin 'DoxygenToolkit.vim'
 Plugin 'Markdown-syntax'
 Plugin 'MatchTag'
@@ -26,7 +25,6 @@ Plugin 'honza/vim-snippets'
 Plugin 'klen/python-mode'
 Plugin 'Yggdroot/indentLine' 
 Plugin 'davidhalter/jedi-vim'
-"Plugin 'Valloric/YouCompleteMe'
 
 " colors
 Plugin 'desert-warm-256'
