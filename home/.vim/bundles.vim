@@ -25,6 +25,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'klen/python-mode'
 Plugin 'Yggdroot/indentLine' 
 Plugin 'davidhalter/jedi-vim'
+Plugin 'elzr/vim-json'
 
 " colors
 Plugin 'desert-warm-256'
