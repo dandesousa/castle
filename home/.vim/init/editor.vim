@@ -66,6 +66,9 @@ let preferred_dir = expand("~/.vim/backup")
    endif
 
 
+" 7.4 syntax highlighting is slow, this improves it by going back to old
+" regexengine
+set regexpengine=1
 set backup
 set writebackup
 set backupdir=~/.vim/backup
