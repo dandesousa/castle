@@ -3,6 +3,7 @@
 	name = Daniel DeSousa
 [core]
 	editor = vim
+	excludesfile = ~/.gitignore
 [diff]
 	tool = vimdiff
 [difftool]
@@ -18,3 +19,7 @@
 	default = matching
 [merge]
 	tool = vimdiff
+[filter "lfs"]
+	smudge = git-lfs smudge %f
+	required = true
+	clean = git-lfs clean %f
