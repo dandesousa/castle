@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install homeshick
-HOMESHICK_DIR=$HOME/.homesick/repos/homeshick
+HOMESHICK_DIR="$HOME/.homesick/repos/homeshick"
 echo "Installing homeshick..."
 if [ ! -d ${HOMESHICK_DIR} ]
 then
