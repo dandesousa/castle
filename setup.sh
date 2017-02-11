@@ -40,7 +40,7 @@ fi
 
 # install oh-my-zsh
 echo "Installing oh-my-zsh..."
-if ! git clone git://github.com/robbyrussell/oh-my-zsh.git "~/.oh-my-zsh"
+if ! git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 then
     echo "E: Unable to install oh-my-zsh"
     exit 1
