@@ -9,14 +9,6 @@ source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 # time that oh-my-zsh is loaded.
 ZSH_THEME="honukai"
 
-# Setting virtualenv support
-VENV_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
-VENV_DIR=$HOME/venv
-if [ -e ${VENV_SCRIPT} ]
-then
-    WORKON_HOME=${VENV_DIR}
-    source ${VENV_SCRIPT}
-fi
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -66,6 +58,15 @@ plugins=(git vagrant)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
+
+# Setting virtualenv support
+VENV_SCRIPT=$(which virtualenvwrapper.sh)
+VENV_DIR=$HOME/venv
+if [ -e ${VENV_SCRIPT} ]
+then
+    WORKON_HOME=${VENV_DIR}
+    source ${VENV_SCRIPT}
+fi
 
 source $ZSH/oh-my-zsh.sh
 
